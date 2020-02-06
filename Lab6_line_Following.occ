@@ -1,0 +1,40 @@
+CC5X Version 3.5, Copyright (c) B Knudsen Data, Norway 1992-2014
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+Lab6_line_Following.c:
+ 29. Nov 2016  15:52
+ Chip = 16F873A
+ RAM: 00h : -------- -------- -------- --------
+ RAM: 20h : -======= ======== =....... ........
+ RAM: 40h : ******** ******** ******** ********
+ RAM: 60h : ******** ******** ******** ********
+ RAM: 80h : -------- -------- -------- --------
+ RAM: A0h : -******* ******** ******** ********
+ RAM: C0h : ******** ******** ******** ********
+ RAM: E0h : ******** ******** ******** ********
+RAM usage: 33 bytes (16 local), 159 bytes free
+Warning Lab6_line_Following.c 24: Constant is truncated
+ (The default C type cast rules force significant bits in the result to be
+ cleared. It is recommended to use typecast one value to make clear
+ what the type (size) should be. For example '(long)100*100'. Note
+ that the default int size is 8 bit)
+Warning Lab6_line_Following.c 26: Constant is truncated
+Warning Lab6_line_Following.c 27: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning Lab6_line_Following.c 31: Duplicate inline multiplication (math library may save code, option -wi removes warning)
+Warning Lab6_line_Following.c 45: Constant is truncated
+Warning Lab6_line_Following.c 46: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning Lab6_line_Following.c 47: Constant is truncated
+Warning Lab6_line_Following.c 48: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning Lab6_line_Following.c 52: Duplicate inline multiplication (math library may save code, option -wi removes warning)
+Warning Lab6_line_Following.c 53: Duplicate inline multiplication (math library may save code, option -wi removes warning)
+ Optimizing - removed 12 instructions (-1 %)
+ File 'Lab6_line_Following.occ'
+Warning mte220.c 340: Read-modify-write sequence on the same PORT may fail
+ (Two consecutive instructions modifying the same PORT may fail depending on
+ execution speed and load (fall/rise times) on the port pins. Option -wf will
+ remove this warning)
+Warning mte220.c 478: Read-modify-write sequence on the same PORT may fail
+ File 'Lab6_line_Following.hex'
+ Codepage 0 has  810 word(s) :  39 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 810 code words (19 %)
+ * Estimated CODE SIZE of full optimization: 610 code words (-24 %)
